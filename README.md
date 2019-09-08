@@ -18,3 +18,5 @@
 ### Checkout conflict files
 ```git diff --name-status --diff-filter=U```
 
+### Get list of only local branches
+```git branch -vv | cut -c 3- | awk '$3 !~/\[/ { print $1 }'```
