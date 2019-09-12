@@ -1,16 +1,16 @@
 # Git-Notes
 ## Contains most commonly used git commands
 
-## Basic flow for creating a local git project and connecting it with a remote repository(Github | Gitlab | Bitbucket)
+### Basic flow for creating a local git project and connecting it with a remote repository(Github | Gitlab | Bitbucket)
 
 1. Adding git to a folder(Execute inside the project folder)
 
-```git init```
+   ```git init```
 
 2. Adding and commiting project files 
 
-```git add .```
-```git commit -m "commit message"```
+   ```git add .```
+   ```git commit -m "commit message"```
 
 3. Create a README.md file
 
