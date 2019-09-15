@@ -1,4 +1,18 @@
 # Git-Notes
+
+### Awesome places to learn git
+
+1. (GitHub Learning Lab)[https://lab.github.com/]
+2. (Git Started with GitHub)[https://www.udemy.com/course/git-started-with-github/]
+3. (Version Control with Git)[https://www.udacity.com/course/version-control-with-git--ud123]
+
+### Basic Terminologies
+
+1. **git**: Git is a distributed version-control system for tracking changes in source code during software development.
+2. **git clone**: To download an existing git repository on your local machine.
+3. **git fetch**: It only downloads the new data from remote repository and does not integrate that data into working files.
+4. **git pull**: It downloads the new data as well as merges it into the existing files.
+
 ### Contains most commonly used git commands
 
 #### Basic flow for creating a local git project and connecting it with a remote repository(Github | Gitlab | Bitbucket)
@@ -18,7 +32,7 @@
 
 5. Linking your local repository to your remote repository
 
-   ```git remote add origin $URL_TO_YOUR_REMOTE_REPOSITORY
+   ```git remote add origin $URL_TO_YOUR_REMOTE_REPOSITORY```
 
 6. Pushing local files to remote repository
   
