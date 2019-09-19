@@ -1,5 +1,11 @@
 # Git-Notes
 
+## Table Of Contents:
+
+1. [Awesome place to learn git](#awesome-places-to-learn-git)
+2. [Basic Terminologies](#basic-terminologies)
+3. [Contains Most Commonly Used Git Commands](#contains-most-commonly-used-git-commands)
+
 ### Awesome places to learn git
 
 1. [GitHub Learning Lab](https://lab.github.com/)
