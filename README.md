@@ -11,6 +11,8 @@
 1. [GitHub Learning Lab](https://lab.github.com/)
 2. [Git Started with GitHub](https://www.udemy.com/course/git-started-with-github/)
 3. [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
+4. [Atlassian Git Tutorial](https://www.atlassian.com/git)
+5. [Lean Git Branching](https://learngitbranching.js.org/)
 
 ### Basic Terminologies
 
