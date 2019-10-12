@@ -84,7 +84,7 @@ Renaming some other branch:<br />
 7. **Delete a local branch**<br />
 ```git branch -d $BRANCH_NAME```<br />
 ```git branch -D $BRANCH_NAME```<br />
--d stands for --delete, which will delete the local branch, only if you have already pushed and merged it with your remote branches.
+-d stands for --delete, which will delete the local branch, only if you have already pushed and merged it with your remote branches.<br /><br />
 -D stands for --delete --force, which deletes the branch regardless of its push and merge status.
 
 <br />
