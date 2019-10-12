@@ -76,17 +76,15 @@
 ```git log --oneline --graph --decorate --all```
 
 6. **Rename a local branch**<br />
-Renaming the current branch:
-```git branch -m $NEW_BRANCH_NAME```
-Renaming some other branch:
-```git branch -m $OLD_BRANCH_NAME $NEW_BRANCH_NAME```
+Renaming the current branch:<br />
+```git branch -m $NEW_BRANCH_NAME```<br />
+Renaming some other branch:<br />
+```git branch -m $OLD_BRANCH_NAME $NEW_BRANCH_NAME```<br />
 
 7. **Delete a local branch**<br />
-```git branch -d $BRANCH_NAME```
-```git branch -D $BRANCH_NAME```
-
+```git branch -d $BRANCH_NAME```<br />
+```git branch -D $BRANCH_NAME```<br />
 -d stands for --delete, which will delete the local branch, only if you have already pushed and merged it with your remote branches.
-
 -D stands for --delete --force, which deletes the branch regardless of its push and merge status.
 
 <br />
