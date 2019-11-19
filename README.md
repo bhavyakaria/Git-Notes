@@ -27,7 +27,6 @@
 3. **git fetch**: It only downloads the new data from remote repository and does not integrate that data into working files.
 4. **git pull**: It downloads the new data as well as merges it into the existing files.
 
-<br />
 <a name='basic_flow'></a>
 ## Basic flow
 
@@ -51,7 +50,6 @@
 7. To fetch any changes made on remote repository to local repository<br />
 ```git pull origin master```
 
-<br />
 <a name='git_branch_commands'></a>
 ## Git Branch Commands
 
@@ -83,7 +81,7 @@ Renaming some other branch:<br />
 -d stands for --delete, which will delete the local branch, only if you have already pushed and merged it with your remote branches.<br />
 -D stands for --delete --force, which deletes the branch regardless of its push and merge status.
 
-<br />
+
 <a name='miscellaneous'></a>
 ## Miscellaneous
 
