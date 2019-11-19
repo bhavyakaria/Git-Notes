@@ -9,7 +9,6 @@
 5. [Miscellaneous](#miscellaneous)
 
 <br />
-
 <a name='git_tutorials'></a>
 ## Awesome places to learn git
 
@@ -20,7 +19,6 @@
 5. [Lean Git Branching](https://learngitbranching.js.org/)
 
 <br />
-
 <a name='basic_terminologies'></a>
 ## Basic Terminologies
 
@@ -30,7 +28,6 @@
 4. **git pull**: It downloads the new data as well as merges it into the existing files.
 
 <br />
-
 <a name='basic_flow'></a>
 ## Basic flow
 
@@ -55,7 +52,6 @@
 ```git pull origin master```
 
 <br />
-
 <a name='git_branch_commands'></a>
 ## Git Branch Commands
 
@@ -88,7 +84,6 @@ Renaming some other branch:<br />
 -D stands for --delete --force, which deletes the branch regardless of its push and merge status.
 
 <br />
-
 <a name='miscellaneous'></a>
 ## Miscellaneous
 
