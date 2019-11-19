@@ -8,7 +8,6 @@
 4. [Git Branch](#git_branch_commands)
 5. [Miscellaneous](#miscellaneous)
 
-<br />
 <a name='git_tutorials'></a>
 ## Awesome places to learn git
 
@@ -18,7 +17,6 @@
 4. [Atlassian Git Tutorial](https://www.atlassian.com/git)
 5. [Lean Git Branching](https://learngitbranching.js.org/)
 
-<br />
 <a name='basic_terminologies'></a>
 ## Basic Terminologies
 
