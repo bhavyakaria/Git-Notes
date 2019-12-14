@@ -77,7 +77,7 @@ ii. Renaming some other branch:<br />
 i. First complete the above two steps.<br />
 ii. Delete the old-name branch and push the new-name local branch:
 ```git push origin :$OLD_BRANCH_NAME $NEW_BRANCH_NAME```<br />
-iii. Reset the upstream branch for new-name local branch:
+iii. Reset the upstream branch for new-name local branch
 ```git push origin -u $NEW_BRANCH_NAME```
 
 7. **Delete a local branch**<br />
