@@ -68,10 +68,17 @@
 ```git log --oneline --graph --decorate --all```
 
 6. **Rename a local branch**<br />
-Renaming the current branch:<br />
+i. Renaming the current branch:<br />
 ```git branch -m $NEW_BRANCH_NAME```<br />
-Renaming some other branch:<br />
+ii. Renaming some other branch:<br />
 ```git branch -m $OLD_BRANCH_NAME $NEW_BRANCH_NAME```<br />
+
+7. **Rename a remote branch**<br />
+First complete the above two steps<br />
+i. Delete the old-name branch and push the new-name local branch:
+```git push origin :$OLD_BRANCH_NAME $NEW_BRANCH_NAME```<br />
+ii. Reset the upstream branch for new-name local branch:
+```git push origin -u $NEW_BRANCH_NAME```
 
 7. **Delete a local branch**<br />
 ```git branch -d $BRANCH_NAME```<br />
