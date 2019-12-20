@@ -6,7 +6,8 @@
 2. [Basic Terminologies](#basic_terminologies)
 3. [Baisc Flow](#basic_flow)
 4. [Git Branch](#git_branch_commands)
-5. [Miscellaneous](#miscellaneous)
+5. [Git Stash](#git_stash_commands)
+6. [Miscellaneous](#miscellaneous)
 
 <a name='git_tutorials'></a>
 ## Awesome places to learn git
@@ -80,12 +81,17 @@ ii. Delete the old-name branch and push the new-name local branch:
 iii. Reset the upstream branch for new-name local branch
 ```git push origin -u $NEW_BRANCH_NAME```
 
-7. **Delete a local branch**<br />
+8. **Delete a local branch**<br />
 ```git branch -d $BRANCH_NAME```<br />
 ```git branch -D $BRANCH_NAME```<br /><br />
 -d stands for --delete, which will delete the local branch, only if you have already pushed and merged it with your remote branches.<br />
 -D stands for --delete --force, which deletes the branch regardless of its push and merge status.
 
+<a name='git_Stash_commands'></a>
+## Git Stash Commands
+
+1. **Saving uncommited changes(both staged and unstaged) and making the working branch clean**
+```git stash```<br />
 
 <a name='miscellaneous'></a>
 ## Miscellaneous
