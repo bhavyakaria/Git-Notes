@@ -90,8 +90,30 @@ iii. Reset the upstream branch for new-name local branch
 <a name='git_Stash_commands'></a>
 ## Git Stash Commands
 
-1. **Saving uncommited changes(both staged and unstaged) and making the working branch clean**
+1. **Saving uncommited changes(both staged and unstaged) and making the working branch clean**<br />
 ```git stash```<br />
+
+2. **Saving with a message**<br />
+```git stash save $MESSAGE```<br />
+
+3. **Checkout all the stash in your project**<br />
+```git stash list```<br />
+
+4. **Pasting the stash changes and remove it from list**<br />
+```git stash pop```<br />
+
+5. **Apply ths stash changes and also keep them in the list**<br />
+```git stash apply```<br />
+
+6. **Creating a branch from stash**<br />
+```git stash branch $BRANCH_NAME```<br />
+
+7. **Delete all your stash from the project**<br />
+```git stash clear``<br />
+
+8. **Remove a particular stash from the list**<br />
+```git stash drop $STASH_ID```<br /> 
+
 
 <a name='miscellaneous'></a>
 ## Miscellaneous
