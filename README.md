@@ -109,7 +109,7 @@ iii. Reset the upstream branch for new-name local branch
 ```git stash branch $BRANCH_NAME```<br />
 
 7. **Delete all your stash from the project**<br />
-```git stash clear``<br />
+```git stash clear```<br />
 
 8. **Remove a particular stash from the list**<br />
 ```git stash drop $STASH_ID```<br /> 
