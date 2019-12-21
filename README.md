@@ -1,5 +1,9 @@
 # Git-Notes
 
+## Contributing
+
+This repository is contribution friendly😃. If you would like to improve or add some useful commands, your contribution is welcome!
+
 ## Table Of Contents:
 
 1. [Awesome place to learn git](#git_tutorials)
