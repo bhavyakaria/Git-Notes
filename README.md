@@ -1,8 +1,14 @@
-# Git-Notes
+<h1 align="center"><img height="50" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" align="middle"/><br />Git-Notes</h1>
+<p align="center">I like to maintain a cheatsheet of git commands which I frequently use. The repo contains the most used commands and a small info about them which will improve your productivity and save precious hours by randomly going through stackoverflow questions.<br /><br />Feel free to reach out to me! 😊 <br />
+  <a href="https://www.instagram.com/bhavya_karia/">Instagram</a> || <a href="https://twitter.com/thebhavyakaria">Twitter</a> || <a href="https://www.linkedin.com/in/bhavya-karia-1b115a93/">LinkedIn</a> || <a href="https://bhavyakaria.github.io/">Blog</a>
+ </p>
 
-## Contributing
 
-This repository is contribution friendly😃. If you would like to improve or add some useful commands, your contribution is welcome!
+<h1 align="center">Contribution</h1>
+
+<p align="center">This repository is contribution friendly😃. If you would like to improve or add some useful commands, your contribution is welcome!</p>
+
+---
 
 ## Table Of Contents:
 
@@ -91,7 +97,7 @@ iii. Reset the upstream branch for new-name local branch
 -d stands for --delete, which will delete the local branch, only if you have already pushed and merged it with your remote branches.<br />
 -D stands for --delete --force, which deletes the branch regardless of its push and merge status.
 
-<a name='git_Stash_commands'></a>
+<a name='git_stash_commands'></a>
 ## Git Stash Commands
 
 1. **Saving uncommited changes(both staged and unstaged) and making the working branch clean**<br />
