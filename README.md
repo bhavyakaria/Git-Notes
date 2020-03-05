@@ -18,6 +18,7 @@
 4. [Git Branch](#git_branch_commands)
 5. [Git Stash](#git_stash_commands)
 6. [Miscellaneous](#miscellaneous)
+7. [Delete Branch](#delete_branch)
 
 <a name='git_tutorials'></a>
 ## Awesome places to learn git
@@ -133,5 +134,15 @@ iii. Reset the upstream branch for new-name local branch
 
 2. **Checkout conflict files**<br />
 ```git diff --name-status --diff-filter=U```
+
+<a name='delete_branch'></a>
+## Delete Branch
+
+1. **Delete Local Branch<br />**
+```git branch -d $BRANCH_NAME```
+
+2. **Delete Global Branch<br />**
+```git push origin --delete $BRANCH_NAME```
+
 
 
