@@ -19,6 +19,7 @@
 5. [Git Stash](#git_stash_commands)
 6. [Miscellaneous](#miscellaneous)
 7. [Delete Branch](#delete_branch)
+8. [Open Source Contribution](#open_source_contributions)
 
 <a name='git_tutorials'></a>
 ## Awesome places to learn git
@@ -87,9 +88,9 @@ ii. Renaming some other branch:<br />
 
 7. **Rename a remote branch**<br />
 i. First complete the above two steps.<br />
-ii. Delete the old-name branch and push the new-name local branch:
+ii. Delete the old-name branch and push the new-name local branch:<br />
 ```git push origin :$OLD_BRANCH_NAME $NEW_BRANCH_NAME```<br />
-iii. Reset the upstream branch for new-name local branch
+iii. Reset the upstream branch for new-name local branch<br />
 ```git push origin -u $NEW_BRANCH_NAME```
 
 8. **Delete a local branch**<br />
@@ -144,5 +145,14 @@ iii. Reset the upstream branch for new-name local branch
 2. **Delete Global Branch<br />**
 ```git push origin --delete $BRANCH_NAME```
 
+<a name='open_source_contributions'></a>
+## Open Source Contributions
 
+1. **Fork the desired repository and clone that fork repo to your local machine.<br />**
 
+2. **Fetching changes from main repository and merging them into your local copy.<br />**
+i. ```git remote add upstream $URL_TO_YOUR_ORIGIN_REPOSITORY```<br />
+ii. ```git fetch upstream```<br />
+iii. ```git merge upstream/master```<br />
+iv. Now push these change to your remote repository<br />
+```git push```<br />
